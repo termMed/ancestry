@@ -1,17 +1,24 @@
 {
-  "name": "ancestry",
+  "name": "snomed-ct-ancestry",
   "version": "1.0.0",
   "description": "A tool that generates ancestors lists for a given set of SNOMED CT conceptIds",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alejandro Lopez Osornio",
+  "author": { "name" : "Alejandro Lopez Osornio"
+    , "email" : "alopez@termmed.com"
+    , "url" : "http://www.termmed.com/"
+  },
   "license": "Apache-2.0",
   "dependencies": {
     "byline": "^5.0.0"
   },
   "bin": {
     "ancestry": "./index.js"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/termMed/snomed-ct-ancestry.git"
   }
 }
