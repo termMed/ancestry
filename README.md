@@ -24,7 +24,7 @@ The tool generates the output as a tab delimited file, named "ancestorsForList.t
 
 Example:
 
-`
+```
 ConceptId	FSN	Ancestor ConceptId	Ancestor FSN
 200001	Berberine (substance)	45695000	Plant alkaloid (substance)
 200001	Berberine (substance)	301054007	Phytochemical (substance)
@@ -44,4 +44,4 @@ ConceptId	FSN	Ancestor ConceptId	Ancestor FSN
 200001	Berberine (substance)	116280007	Heterocyclic compound (substance)
 200001	Berberine (substance)	41175001	Organic compound (substance)
 200001	Berberine (substance)	312415009	Chemical categorized structurally (substance)
-`
+```
