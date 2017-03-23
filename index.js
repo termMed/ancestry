@@ -80,8 +80,10 @@ stream.on('end', function() {
             count++;
             if (count%100==0) console.log("Substances:",count);
             var columns = line.split("\t");
+            var descendantName = (fsns[columns[0]]) ? fsns[columns[0]].fsn : columns[1];
             getAncestors(columns[0]).forEach(function(loopAncestor) {
-                report+=columns[0] + "\t" + columns[1] + "\t" + loopAncestor + "\t" + fsns[loopAncestor].fsn + "\n";
+                report+=columns[0] + "\t" + descendantName +
+                "\t" + loopAncestor + "\t" + fsns[loopAncestor].fsn + "\n";
             });
 
         });
