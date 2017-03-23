@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * Created by alo on 2/20/17.
  */
@@ -13,7 +14,6 @@ var inputList = "[Enter input list with -i argument]";
 
 
 process.argv.forEach(function (val, index, array) {
-    console.log(index + ': ' + val);
     if (val == "-r") {
         if (!process.argv[index+1]) {
             throw ("Missing release file parameter after -r");
@@ -36,8 +36,6 @@ process.argv.forEach(function (val, index, array) {
         }
     }
 });
-
-console.log(__dirname);
 
 var stream = byline(fs.createReadStream(relationshipsSnapshot, { encoding: 'utf8' }));
 
