@@ -1,6 +1,6 @@
 {
   "name": "snomed-ct-ancestry",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A tool that generates ancestors lists for a given set of SNOMED CT conceptIds",
   "main": "index.js",
   "scripts": {
