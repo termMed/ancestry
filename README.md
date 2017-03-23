@@ -14,7 +14,7 @@ Run from the command line:
 
 The input file should be a tab delimited file with 2 columns, ConceptId and Term.
 
-# Output
+## Output
 
 The tool generates the output as a tab delimited file, named "ancestorsForList.txt", that contains 4 columns:
 * ConceptId: for one of the concepts in the input list
