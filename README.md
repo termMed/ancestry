@@ -12,7 +12,7 @@ Run from the command line:
 
 `ancestry -r [path-to-rf2-relationships-snapshot] -d [path-to-rf2-descriptions-snapshot] -i [path-to-input-file]`
 
-The input file should be a tab delimited file with 2 columns, ConceptId and Term.
+The input file should be a tab delimited file with 2 columns, ConceptId and Term. The second column (term) is optional.
 
 ## Output
 
