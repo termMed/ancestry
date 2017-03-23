@@ -7,8 +7,8 @@ var fs = require('fs'),
 var isaCache = {};
 var fsns = {};
 
-var relationshipsSnapshot = "[Enter RF2 Relationships Snapshot location with -r argument]"; // /Users/alo/Downloads/SnomedCT_InternationalRF2_Production_20170131T120000/Snapshot/Terminology/sct2_Relationship_Snapshot_INT_20170131.txt
-var descriptionsSnapshot = "[Enter RF2 Descriptions Snapshot location with -r argument]"; // /Users/alo/Downloads/SnomedCT_InternationalRF2_Production_20170131T120000/Snapshot/Terminology/sct2_Description_Snapshot_INT_20170131.txt
+var relationshipsSnapshot = "[Enter RF2 Relationships Snapshot location with -r argument]";
+var descriptionsSnapshot = "[Enter RF2 Descriptions Snapshot location with -r argument]";
 var inputList = "[Enter input list with -i argument]";
 
 
