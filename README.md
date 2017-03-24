@@ -10,7 +10,7 @@ Command line utility to generate ancestors lists for review activities
 
 Run from the command line:
 
-`ancestry -r [path-to-rf2-relationships-snapshot] -d [path-to-rf2-descriptions-snapshot] -i [path-to-input-file]`
+`ancestry -r path-to-rf2-relationships-snapshot -d path-to-rf2-descriptions-snapshot -i path-to-input-file`
 
 The input file should be a tab delimited file with 2 columns, ConceptId and Term. The second column (term) is optional.
 
@@ -22,7 +22,7 @@ The tool generates the output as a tab delimited file, named "ancestorsForList.t
 * Ancestor ConceptId: for one of the ancestors of the concept
 * Ancestor FSN: for the same ancestor
 
-Example:
+Example, for input "200001	Berberine (substance)":
 
 ```
 ConceptId	FSN	Ancestor ConceptId	Ancestor FSN
